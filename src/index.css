@@ -8,6 +8,64 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+/* Nav section */
+
+.logo h2 {
+    margin-left: 200px;
+    font-size: 30px;
+    margin-top: -10px;
+}
+
+.loto-first-letter {
+    color: #F15B22;
+}
+
+.menu-wrap {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    width: 1100px;
+    position: absolute;
+    margin-top: 50px;
+
+
+}
+
+.subscribe-btn a {
+    background-color: #F15B22;
+    padding: 14px 20px;
+    border: 0;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+nav {
+    align-content: center;
+
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 20px;
+    display: inline;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-family: Poppins;
+    font-weight: 600;
+
+
+}
+
 
 /* banner style */
 
@@ -38,7 +96,7 @@ body {
 .desciription {
     font-size: 16px;
     line-height: .5 em;
-    text-align: center;
+    text-align: right;
 
 }
 
@@ -55,6 +113,15 @@ body {
     cursor: pointer;
     margin-left: 340px;
 
+}
+
+.btn a {
+    color: #fff;
+    font-size: 16px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
 }
 
 /* About section */
@@ -113,6 +180,7 @@ main {
     flex-flow: row;
     align-content: center;
     margin-bottom: 100px;
+    gap: 25px;
 }
 
 .plan-item-box {
@@ -125,10 +193,14 @@ main {
 
 }
 
+.plan-item-box img{
+ width: 100px;
+
+}
 /* Call to action section style  */
 
 .call-to-action {
-    background: linear-gradient(to right, #f15b22  0%, rgba(241, 91, 34, 0)100%), url(../Assets/images/watch.png), url(../Assets/images/gradient2.png);
+    background: linear-gradient(to right, #f15b22 0%, rgba(241, 91, 34, 0)100%), url(../Assets/images/watch.png), url(../Assets/images/gradient2.png);
     padding: 100px 100px;
     margin-bottom: 100px;
     background-size: cover;

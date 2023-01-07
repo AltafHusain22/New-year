@@ -9,8 +9,12 @@
     <!-- google poppins font link -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- fontawesome icons cdn link -->
     <script
@@ -22,115 +26,149 @@
     <link rel="stylesheet" href="../New-year/src/index.css" />
   </head>
   <body>
-    <!-- Banner Area -->
     <header>
-      <section class="banner-area">
+      <!-- nav Area -->
+
+      <section class="menu-item-area">
+        <div class="menu-wrap">
+          <div class="logo">
+            <h2><span class="loto-first-letter">A</span>ltaf</h2>
+          </div>
+          <div class="menu-items">
+            <nav>
+              <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#plan">My Plan</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="subscribe-btn">
+                  <a href="#subscribe">Subscribe Me</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </section>
+      <!-- Banner Area -->
+      <section class="banner-area" id="home">
         <div class="banner-texts">
           <h2 class="title">All Thinks Are Possible If You believe .</h2>
           <p class="desciription">
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected
-            humour, or randomised words .
+            It is important to understand that all things are possible for the
+            one who believes! You need to work ahead with a belief that no
+            matter how many hurdles come along your way, things aren’t going to
+            turn impossible..
           </p>
-          <button class="btn">Contact Us</button>
+          <button class="btn"><a href="#contact">Contact Me</a></button>
         </div>
       </section>
     </header>
     <!-- Main Section -->
     <main>
+      <!-- About section -->
 
-        <!-- About section -->
-
-      <section class="aboutme">
+      <section class="aboutme" id="about">
         <div class="about-area">
           <div class="image-area">
             <img src="../New-year/Assets/images/person.png" alt="" srcset="" />
           </div>
           <div class="text-area">
-            <h2 class="about-title">My failures of previous year.</h2>
+            <h2 class="about-title">Who am i ?</h2>
             <p class="about-desciription">
-              Contrary to popular belief, Lorem Ipsum is not simply random text.
-              It has roots in a piece of classical Latin literature from 45 BC,
-              making it over 2000 years old. Richard McClintock.
+              Hi, I am an enthusiastic, smart-working, and reliable Front-end
+              Developer & Server Administration Expert who has over 5 years of
+              experience in this field & efficiently providing high-quality
+              services to various businesses and individuals. I have team
+              management skills & experience and I am good to go with teamwork
+              <b> Also i'm learning..</b>
             </p>
             <li class="about-list">
-              <i class="fa-solid fa-check"> </i> Contrary to popular belief, is
-              not simply.
+              <i class="fa-solid fa-check"> </i> HTML-5 & CSS3
             </li>
             <li class="about-list">
-              <i class="fa-solid fa-check"> </i> Contrary to popular belief.
+              <i class="fa-solid fa-check"> </i> jAVASCRIPT
+            </li>
+            <li class="about-list"><i class="fa-solid fa-check"> </i> REACT</li>
+            <li class="about-list">
+              <i class="fa-solid fa-check"> </i> NODE JS
             </li>
             <li class="about-list">
-              <i class="fa-solid fa-check"> </i> Contrary to popular , is not
-              simply .
-            </li>
-            <li class="about-list">
-              <i class="fa-solid fa-check"> </i> Contrary to popular belief, is
-              not simply.
-            </li>
-            <li class="about-list">
-              <i class="fa-solid fa-check"> </i> Contrary to popular simply.
+              <i class="fa-solid fa-check"> </i> MONGO DB.
             </li>
           </div>
         </div>
       </section>
 
       <!-- Plan section start -->
-      <section class="plan">
-        <h2 class="plan-heading ">My plans</h2>
-            <div class="plan-area">
-                
-                <div class="plan-item-box">
-                    <img src="../New-year/Assets/icons/web.png" alt="">
-                    <h2 class="plan-title">Web Development</h2>
-                    <p class="plan-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi, sunt?</p>
-                </div>
-                <div class="plan-item-box">
-                    <img src="../New-year/Assets/icons/js.png" alt="">
-                    <h2 class="plan-title">Javascript</h2>
-                    <p class="plan-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, quisquam?</p>
-                </div>
-                <div class="plan-item-box">
-                    <img src="../New-year/Assets/icons/smoke.png" alt="">
-                    <h2 class="plan-title">Smoking Habit</h2>
-                    <p class="plan-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, nemo?</p>
-                </div>
-                <div class="plan-item-box">
-                    <img src="../New-year/Assets/icons/ecom.png" alt="">
-                    <h2 class="plan-title">ecommerce</h2>
-                    <p class="plan-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, dicta!</p>
-                </div>
-            </div>
+      <section class="plan" id="plan">
+        <h2 class="plan-heading">My plans</h2>
+        <div class="plan-area">
+          <div class="plan-item-box">
+            <img src="../New-year/Assets/icons/web.png" alt="" />
+            <h2 class="plan-title">Web Development</h2>
+            <p class="plan-description">
+              First i'll be a expert webdeveloper and i'll add lots of skills in
+              my career .
+            </p>
+          </div>
+          <div class="plan-item-box">
+            <img src="../New-year/Assets/icons/presentation.png" alt="" />
+            <h2 class="plan-title">Teaching</h2>
+            <p class="plan-description">
+              then i wnat to spread my knowledge to people who are seeking to
+              gather knowldge.
+            </p>
+          </div>
+          <div class="plan-item-box">
+            <img src="../New-year/Assets/icons/planning.png" alt="" />
+            <h2 class="plan-title">Writing</h2>
+            <p class="plan-description">
+              i love writing book , so i planed i'll write a book about
+              techonology.
+            </p>
+          </div>
+          <div class="plan-item-box">
+            <img src="../New-year/Assets/icons/job.png" alt="" />
+            <h2 class="plan-title">Job</h2>
+            <p class="plan-description">
+              Getting a good job at a sftware company is my dream .
+            </p>
+          </div>
+        </div>
       </section>
 
       <!-- call to action section -->
 
-      <section class="call-to-action-area">
+      <section class="call-to-action-area" id="contact">
         <div class="call-to-action">
-            <h2 class="call-to-action-title">Awlays keep a positive mindset</h2>
-            <button class="callnow">Call Now </button>
+          <h2 class="call-to-action-title">Awlays keep a positive mindset</h2>
+          <button class="callnow">Call Now</button>
         </div>
       </section>
     </main>
 
     <!-- Footer Section -->
-    <footer>
-        <div class="footer-aea">
-            <div class="footer-left-info">
-                <h2 class="footer-header">Future</h2>
-                <p class="footer-description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words</p>
-                <p class="footer-description">Email : altaf@gmail.com</p>
-                <p class="footer-description">Phone : +8801772654094</p>
-                <img src="../New-year/Assets/icons/fb.png" alt="" srcset="">
-                <img src="../New-year/Assets/icons/twitter.png" alt="" srcset="">
-                <img src="../New-year/Assets/icons/youtube.png" alt="" srcset="">
-            </div>
-            <div class="footer-right-getnotify">
-                <h2 class="subscribe-header">Subscribe </h2>
-                <input placeholder="Email..." type="email" name="" id="">
-                <input type="submit" value="Submit">
-            </div>
+    <footer id="subscribe">
+      <div class="footer-aea">
+        <div class="footer-left-info">
+          <h2 class="footer-header">Future</h2>
+          <p class="footer-description">
+            Too often, we surrender much before we actually have ended up the
+            game. We lose the game before losing it, and that’s certainly
+            ridiculous.
+          </p>
+          <p class="footer-description">Email : altaf@gmail.com</p>
+          <p class="footer-description">Phone : +8801772654094</p>
+          <img src="../New-year/Assets/icons/fb.png" alt="" srcset="" />
+          <img src="../New-year/Assets/icons/twitter.png" alt="" srcset="" />
+          <img src="../New-year/Assets/icons/youtube.png" alt="" srcset="" />
         </div>
+        <div class="footer-right-getnotify">
+          <h2 class="subscribe-header">Subscribe</h2>
+          <input placeholder="Email..." type="email" name="" id="" />
+          <input type="submit" value="Submit" />
+        </div>
+      </div>
     </footer>
   </body>
 </html>
