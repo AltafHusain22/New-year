@@ -128,7 +128,7 @@ main {
 /* Call to action section style  */
 
 .call-to-action {
-    background: url(../Assets/images/watch.png);
+    background: linear-gradient(to right, #f15b22  0%, rgba(241, 91, 34, 0)100%), url(../Assets/images/watch.png), url(../Assets/images/gradient2.png);
     padding: 100px 100px;
     margin-bottom: 100px;
     background-size: cover;
