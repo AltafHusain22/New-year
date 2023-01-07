@@ -56,3 +56,44 @@ body {
     margin-left: 340px;
 
 }
+
+/* About section */
+
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.about-area {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.about-title {
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.about-desciription {
+    font-size: 16px;
+    line-height: .5 em;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.text-area i {
+    font-size: 15px;
+
+}
+
+.about-list {
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    display: inline;
+    list-style: none;
+    display: block;
+    font-weight: normal !important;
+}
